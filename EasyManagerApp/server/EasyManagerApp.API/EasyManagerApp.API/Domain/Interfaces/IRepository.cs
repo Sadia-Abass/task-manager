@@ -4,11 +4,11 @@
     {
         Task<IEnumerable<TModel>> Get();
         Task<TModel> Get(int id);
-        Task Create(TModel model);
-        Task Update(TModel model);
-        Task Delete(int id);
-        Task CreateRange(IEnumerable<TModel> models);
-        Task UpdateRange(IEnumerable<TModel> models);
-        Task DeleteRange(IEnumerable<TModel> models);
+        void Create(TModel model);
+        void Update(TModel model);
+        void Delete(int id);
+        void CreateRange(IEnumerable<TModel> models);
+        void UpdateRange(IEnumerable<TModel> models);
+        void DeleteRange(IEnumerable<TModel> models);
     }
 }
