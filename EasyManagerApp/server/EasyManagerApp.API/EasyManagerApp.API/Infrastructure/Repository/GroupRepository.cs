@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EasyManagerApp.API.Infrastructure.Repository
 {
-    public class GropuRepository : Repository<Group>, IGroupRepository
+    public class GroupRepository : Repository<Group>, IGroupRepository
     {
 
-        public GropuRepository(AppDbContext appDbContext) : base(appDbContext)
+        public GroupRepository(AppDbContext appDbContext) : base(appDbContext)
         {
             
         }
