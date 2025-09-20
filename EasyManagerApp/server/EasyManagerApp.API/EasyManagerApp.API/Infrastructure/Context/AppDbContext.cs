@@ -10,6 +10,6 @@ namespace EasyManagerApp.API.Infrastructure.Context
             
         }
 
-        DbSet<Group> Groups { get; set; }
+        public DbSet<Group> Groups { get; set; }
     }
 }
