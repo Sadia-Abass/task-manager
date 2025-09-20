@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EasyManagerApp.API.Application.DTOs
 {
-    public class Group
+    public class GroupDTO
     {
         public int Id { get; set; }
 
